@@ -1,0 +1,107 @@
+<html>
+<head>
+    <title>Anneau</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Parisienne|Pacifico|Amatic+SC|Boogaloo|Special+Elite|Neucha|Quicksand">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <script src="./style.js"></script>
+    <nav>
+        <button id="bar" onclick="menuBar()"><span class="material-icons-outlined" style="font-size:40px;" id="close">menu</span></button>
+        <div id="links">
+            <a href="#">HOME</a>&emsp;
+            <a href="#">CATEGORY</a>&emsp;
+            <a href="#">CUSTOMIZED RINGS</a>&emsp;
+            <a href="#">ABOUT-US</a>
+        </div>
+        <h1 class="intro">Anneau</h1>
+    </nav>
+    <div class="container">
+        <div class="mini-con1"></div>
+        <div class="mini-con2"></div>
+        <div class="mini-conh"></div>
+        <div class="mini-conv"></div>
+        <video src="./video.mp4" style="width:180px;height: 180px;border-radius: 50%;" type="video/mp4" muted autoplay loop class="diamond-vid"></video>
+    </div>
+    <div class="container2">
+        <div class="search-bar">
+            <span class="material-icons-outlined search-icon">search</span>
+            <input type="search" placeholder="Search Here" class="search-bar-input">
+        </div>
+        <div class="diamond-section">
+            <h1 class="section-heading">Diamond Rings</h1>
+            <hr style="position:absolute;top:310px;right: 105px;width: 780px;">
+            <a href="#" class="more-button">MORE</a>
+            <div class="product" onclick="displayDetails()">
+                <img src="https://cdn.shopify.com/s/files/1/0393/4516/0237/products/top_a683c4dd-1b2e-42b2-8ea9-f2866cd3f481.png?v=1593203526" style="width: 300px;" id="img-rot" onmouseover="rotateImg()">
+            </div>
+            <div class="product" onclick="displayDetailstwo()">
+                <img src="https://cdn.shopify.com/s/files/1/0393/4516/0237/products/top_b8051d2d-c323-46b2-86bb-2d69624d9834.png?v=1593205103" style="width: 300px;" id="img-rot-two" onmouseover="rotateImgtwo()">
+            </div>
+            <div class="product" onclick="displayDetailsthree()">
+                <img src="https://cdn.shopify.com/s/files/1/0393/4516/0237/products/top_abb17b26-f890-4937-93ee-ea99c6f3c228.png?v=1594150933" style="width: 300px;" id="img-rot-three" onmouseover="rotateImgthree()">
+            </div>
+            <div>
+                <div id="det-1">
+                    <button  id="desp_close" onclick="displayDetails()"><span class="material-icons-outlined" style="font-size: 40px;">close</span></button>
+                    <img src="https://cdn.shopify.com/s/files/1/0393/4516/0237/products/top_a683c4dd-1b2e-42b2-8ea9-f2866cd3f481.png?v=1593203526" style="width: 500px;position: absolute;top: 100px;">
+                    <h1 class="sub-head">10.51 Carat Pear<br> Diamond</h1>
+                    <h2 class="sub-price">$1,098,970.00</h2>
+                    <h3 class="sub-clarity">Very good Cut | D Color | FL Clarity</h3>
+                    <h3 class="sub-delivery">Est. Delivery: Fri, Aug 27 2021 </h3>
+                    <div class="extra-det">
+                        <h3>Symmetry: Excellent<br>Polish: Excellent</h3>
+                    </div>
+                    <button id="add_to_cart" onclick="alert('Added to cart successfully!')">ADD TO CART</button>
+                    <button id="buy_now" onclick="alert('Option coming soon...')">BUY NOW</button>
+                    <button id="fav_button" onclick="likeButton()"><span class="material-icons-outlined" style="font-size: 30px;color: black;" id="like">favorite</span></button>
+                </div>
+                <div id="det-2">
+                    <button  id="desp_close" onclick="displayDetailstwo()"><span class="material-icons-outlined" style="font-size: 40px;">close</span></button>
+                    <img src="https://cdn.shopify.com/s/files/1/0393/4516/0237/products/top_b8051d2d-c323-46b2-86bb-2d69624d9834.png?v=1593205103" style="width: 500px;position: absolute;top: 100px;">
+                    <h1 class="sub-head">07.51 Carat Pear<br>&emsp;Diamond</h1>
+                    <h2 class="sub-price">$109,897.00</h2>
+                    <h3 class="sub-clarity">Very good Cut | D Color | FL Clarity</h3>
+                    <h3 class="sub-delivery">Est. Delivery: Fri, Aug 27 2021 </h3>
+                    <div class="extra-det">
+                        <h3>Symmetry: Excellent<br>Polish: Excellent</h3>
+                    </div>
+                    <button id="add_to_cart" onclick="alert('Added to cart successfully!')">ADD TO CART</button>
+                    <button id="buy_now" onclick="alert('Option coming soon...')">BUY NOW</button>
+                    <button id="fav_button" onclick="likeButtontwo()"><span class="material-icons-outlined" style="font-size: 30px;color: black;" id="like_two">favorite</span></button>
+                </div>
+                <div id="det-3">
+                    <button  id="desp_close" onclick="displayDetailsthree()"><span class="material-icons-outlined" style="font-size: 40px;">close</span></button>
+                    <img src="https://cdn.shopify.com/s/files/1/0393/4516/0237/products/top_abb17b26-f890-4937-93ee-ea99c6f3c228.png?v=1594150933" style="width: 500px;position: absolute;top: 100px;">
+                    <h1 class="sub-head">05.59 Carat Pear<br>&emsp;Diamond</h1>
+                    <h2 class="sub-price">$78,897.99</h2>
+                    <h3 class="sub-clarity">Very good Cut | D Color | FL Clarity</h3>
+                    <h3 class="sub-delivery">Est. Delivery: Fri, Aug 30 2021 </h3>
+                    <div class="extra-det">
+                        <h3>Symmetry: Excellent<br>Polish: Excellent</h3>
+                    </div>
+                    <button id="add_to_cart" onclick="alert('Added to cart successfully!')">ADD TO CART</button>
+                    <button id="buy_now" onclick="alert('Option coming soon...')">BUY NOW</button>
+                    <button id="fav_button" onclick="likeButtonthree()"><span class="material-icons-outlined" style="font-size: 30px;color: black;" id="like_three">favorite</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sapphire-section">
+        <h1 class="section-heading" style="position: absolute;left: 5px;top: 0px;">Sapphire Rings</h1>
+        <hr style="position:absolute;top:90px;right: 105px;width: 780px;">
+        <a href="#" class="more-button" style="top:80px;">MORE</a>
+        <div class="product sapphire" >
+            <video src="./sap3.mp4" style="width: 300px;border-radius: 10px;" autoplay loop muted>
+        </div>
+        <div class="product sapphire">
+            <video src="./sap2.mp4" style="width: 300px;border-radius: 10px;" autoplay loop muted>
+        </div>
+        <div class="product sapphire">
+            <video src="./sap1.mp4" style="width: 300px;border-radius: 10px;" autoplay loop muted>
+        </div>
+    </div>
+
+</body>
+</html>

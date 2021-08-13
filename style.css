@@ -1,0 +1,304 @@
+body{
+    height: 300vh;
+    background: black;
+}
+
+#bar{
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+}
+
+#links{
+    color: whitesmoke;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-family: POPPINS;
+    display: none;
+}
+
+.container{
+    width: 100%;
+    height: 610px;
+    background:transparent;
+    position: absolute;
+    left: 0px;
+}
+
+.intro{
+    color: whitesmoke;
+    font-family:POPPINS,monospace;
+    font-weight: 400;
+    font-size: 35px;
+    position: absolute;
+    right: 2rem;
+    top: -15px;
+}
+
+.mini-con1{
+    height: 610;
+    width: 700px;
+    border-radius: 550px 0px 550px 0px;
+    background: radial-gradient(rgba(68, 68, 68, 0.048),#EC4176);
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.mini-con2{
+    height: 610;
+    width: 700px;
+    border-radius: 0px 550px 0px 550px;
+    background: radial-gradient(rgba(68, 68, 68, 0.048),#EC4176);
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+.mini-conh{
+    height: 610;
+    width: 610px;
+    border-radius: 0px 550px 0px 550px;
+    background: radial-gradient(rgba(68, 68, 68, 0.048),#EC4176);
+    position: absolute;
+    right: 350px;
+    top: 100px;
+    transform: rotate(45deg);
+    
+}
+.mini-conv{
+    height: 610;
+    width: 610px;
+    border-radius: 0px 550px 0px 550px;
+    background: radial-gradient(rgba(68, 68, 68, 0.048),#EC4176);
+    position: absolute;
+    right: 350px;
+    top: 100px;
+    transform: rotate(135deg);
+    
+}
+.diamond-vid{
+    position: absolute;
+    right: 570px;
+    top: 310px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container2{
+    width: 100%;
+    height: 700px;
+    background: transparent;
+    position: absolute;
+    top: 950px;left: 0px;
+    border-top: .5px solid rgba(255, 255, 255, 0.5) ;
+}
+.search-bar{
+    width: 700px;
+    height: 45px;
+    border-radius: 3px;
+    position: absolute;top: 80px;
+    left: 334px;
+    background: #A13670;
+}
+.search-bar-input{
+    width: 600px;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    font-family: POPPINS;
+    font-size: 20px;
+    border: none;
+}
+.search-icon{
+    color: whitesmoke;
+    font-size: 35px;
+    position: absolute;top: 5px;left: 35px;
+}
+
+.section-heading{
+    color: whitesmoke;
+    position: absolute;
+    top: 220px;
+    font-size: 70px;
+    font-family: Dancing Script;
+}
+
+.product{
+    width: 300px;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    margin: 70px;
+    display: inline;
+    position: relative;
+    top: 450px;
+    left: 0px;
+}
+
+#img-rot{
+    transform: rotate(0deg);    
+}
+#img-rot-two{
+    transform: rotate(0deg);    
+}
+
+#img-rot-three{
+    transform: rotate(0deg);    
+}
+
+.more-button{
+    position: absolute;
+    top: 305px;
+    right: 5px;
+    border: 1px solid #FFA45E;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    font-family: POPPINS;
+    border-radius: 3px;
+}
+
+#det-1{
+    position: fixed;
+    top: 30px;
+    left: 65px;
+    width: 1200px;
+    background: white;
+    border-radius: 5px;
+    height: 600px;
+    display: none;
+    z-index: 1;
+
+}
+
+#det-2{
+    position: fixed;
+    top: 30px;
+    left: 65px;
+    width: 1200px;
+    background: white;
+    border-radius: 5px;
+    height: 600px;
+    display: none;
+    z-index: 1;
+
+}
+
+#det-3{
+    position: fixed;
+    top: 30px;
+    left: 65px;
+    width: 1200px;
+    background: white;
+    border-radius: 5px;
+    height: 600px;
+    display: none;
+    z-index: 1;
+
+}
+.sub-head{
+    font-family: OSWALD,sans-serif!important;
+    font-weight: 400;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+.sub-price{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    font-family: POPPINS;
+    font-size: 25px;
+}
+
+#desp_close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+}
+
+.sub-clarity{
+    position: absolute;
+    left: 450px;
+    top: 250px;
+    color: gray;
+    font-family: Quicksand,sans-serif;
+}
+.sub-delivery{
+    position: absolute;
+    left: 670px;
+    top: 290px;
+    color: black;
+    font-family: Quicksand,sans-serif;
+}
+
+.extra-det{
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Quicksand,sans-serif;
+    color: black;
+    background: rgba(0, 0, 0, 0.014);
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
+
+#add_to_cart{
+    width: 550px;
+    height: 40px;
+    font-family: Quicksand,sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 380px;
+    right: 120px;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+#buy_now{
+    width: 550px;
+    height: 40px;
+    font-family: Quicksand,sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 440px;
+    right: 120px;
+    background: palegreen;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+#fav_button{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 130px;
+    left: 680px;
+}
+
+.sapphire-section{
+    background: transparent;
+    width: 100%;
+    height: 610px;
+    position: absolute;
+    top: 1700px;
+    left: 0px;
+}
+
+.sapphire{
+    position: relative;
+    top: 190px;
+}
